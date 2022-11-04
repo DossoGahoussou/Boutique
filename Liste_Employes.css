@@ -1,0 +1,89 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: gainsboro;
+    position: sticky;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    box-shadow: 15px 5px 7px 6px gainsboro;
+    top: 0px;
+    padding: 20px 0px;
+}
+
+nav h1 {
+    position: relative;
+    bottom: 50px;
+    font-size: 60px;
+    color: royalblue;
+}
+
+section {
+    width: 100%;
+    height: 1430px;
+    background-color: royalblue;
+    box-shadow: 5px 5px 7px 40px royalblue;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid red;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+section button{
+   width: 500px;
+   height: 50px;
+   background-color: white;
+   box-shadow: 1px 1px 2px 2px whitesmoke;
+   border: none;
+   padding: 5px;
+   margin: 50px;
+   border-radius: 15px;
+   cursor: pointer;
+   justify-content: center;
+}
+
+.lien1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    text-decoration: none;    
+    color: darkslategrey;
+}
+
+.lien2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    text-decoration: none;    
+    color: red;
+}
+
+.lien3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    text-decoration: none;    
+    color: royalblue;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: gainsboro;
+    color: royalblue;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px gainsboro;
+}

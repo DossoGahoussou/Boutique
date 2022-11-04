@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOSSO SOCIETE EXPRESS</title>
+    <link rel="stylesheet" href="Ajout_Employes.css">
+</head>
+
+<body>
+    <nav>
+        <h1>DOSS'O SOCIETE EXPRESS</h1>
+    </nav>
+    <section>
+        <center>
+            <h2>Ajout d'un nouveau Employé</h2>
+            <form action="Ajout_Employes.php" method="POST">
+                <p>
+                    <input type="text" name="name" placeholder="Entrez son Nom">
+                </p>
+                <p>
+                    <input type="text" name="firstname" placeholder="Entrez son Prénom">
+                </p>
+                <p>
+                    <input type="tel" name="phone" placeholder="+225 00 00 00 00 00">
+                </p>
+                <p>
+                    <select name="gender" id="">
+                        <option value="Non defini">Non defini</option>
+                        <option value="Masculin">Masculin</option>
+                        <option value="Feminin">Feminin</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="text" name="town" placeholder="Entrez le nom de sa commune">
+                </p>
+                <input class="ajouter" type="submit" value="Ajouter">
+                <p></p>
+            </form>
+        </center>
+    </section>
+    <footer>
+        <P>&copy; TOUTE REPRODUCTION EST INTERDITE - 2022</P>
+    </footer>
+</body>
+
+</html>

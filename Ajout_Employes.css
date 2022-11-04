@@ -1,0 +1,103 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: gainsboro;
+    position: sticky;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    box-shadow: 5px 5px 7px 10px gainsboro;
+    top: 0px;
+    padding: 20px 0px;
+}
+
+nav h1 {
+    position: relative;
+    bottom: 50px;
+    font-size: 60px;
+    color: royalblue;
+}
+
+section {
+    width: 100%;
+    height: 500px;
+    background-color: royalblue;
+    box-shadow: 5px 5px 7px 10px royalblue;
+}
+
+section h2 {
+    padding-top: 10px;
+}
+
+.text{
+    color: chartreuse;
+    font-size: 25px;
+}
+
+form p input {
+    padding: 15px;
+    margin: 9px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+select {
+    padding: 15px;
+    margin: 9px;
+    width: 330px;
+    border-radius: 10px;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+form .ajouter {
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px whitesmoke;
+    border: none;
+    display: flex;
+    margin: 50px;
+    position: relative;
+    top: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    justify-content: center;
+ }
+
+.lien3{
+    position: relative;
+    top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    text-decoration: none;    
+    color: royalblue;
+}
+footer {
+    margin-top: 20px;
+    background-color: gainsboro;
+    color: royalblue;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px gainsboro;
+}
